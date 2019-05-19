@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Sendmessage из dll в delphi - ooyiefinod.maxvandervelde.com</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body class="subpage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- Logo -->
+                        <h1><a href="/" id="logo">ooyiefinod.maxvandervelde.com</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <section id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-12-medium">
+
+                        <!-- Main Content -->
+                        <section>
+                            <header>
+                                <h2>Sendmessage из dll в delphi</h2>
+                            </header>
+                            <p>Как видно из таблицы 4, СОМ порт ПК (с UART 16550 и выше) может работать на скорости до 1,5Mb/s. В чём отличие между SendMessage и PostMessage? Общие вопросы Delphi. rs-232. Рекомендованный стандарт 232. Интерфейс между терминалом данных и передающим. Хранение и передача массива из DLL в  существует FastShareMem. подменяет штатный ShareMem и позволяет работать с DLL в полной мере. ограничение: работает только с Delphi. SendMessage и обработка сообщения Общие вопросы Delphi  Контакты: о проблемах с регистрацией, почтой и по другим вопросам пишите сюда - alarforum@yandex.ru, проверяйте папку спам. Передача значений из DLL в программу во время ее работы. Т.е. у меня в DLL есть форма настроек  см. учебник по Delphi. 
+Параметры SendMessage / Delphi / Собственно в  У меня есть прога, назовем ее Prog1, которую я запускаю из своей  Пробовал передавать сообщения в приложении от одного. Такая запись обеспечивает одновременно и статическое подключение библиотеки user32, и декларацию функции GetWindowDC, что позволяет компилятору в дальнейшем работать. SendMessage в TThread / Delphi / в классе формы можно объявить процедуру procedure WndProc(var Message: TMessage); override; и слать сообщения откуда нравится, а как сделать что бы подобным образом. 
+Я создал два приложения-службы в Delphi и пытался отправлять сообщения в  почему, но в одном из них сообщение сообщений таким образом работает нормально, тогда. Запущено два приложения. Одно на c#, второе на delphi Необходимо передать число из c# в delphi. Как сделать даже не знаю, гуглил, говорят через dll или оперативную память. Хочу создать event в сервисе (т.е. из-под пользователя SYSTEM)  Jin X 21.03.2019 21:26. 1: 832: Использование C# DLL в приложении на Delphi. Добрый день,  Использование SendMessage для. WWW.HELLOWORLD.RU : Использование и создание DLL в Delphi - DLL, Dynamic Link Library, OpenGl, Динамическая загрузка, WINAPI, функция, процедура, вызов, подключение, динамически-подключаемая. SendMessage(WM_COPYDATA) + Record + String. Ask Question 5. 2.  The scenario is: sending side is a DLL hooked using SetWindowsHookEx,  Delphi XE3 Invalid Pointer when trying to free FSQL (TStringList). Работа с окнами в DELPHI с . как она это делает. Кроме примера из подкаталога Ex01 нам понадобится . Третий параметр функции SendMessage устанавливается 
+Browse other questions tagged delphi sendmessage postmessage or ask your own question. asked. 1 year ago. viewed. 434 times. active. 1 year ago. Blog  Problems with PostMessage from C++ dll to Delphi Forms application. Решено: Очередной sendmessage и wm_keydown Delphi WinAPI Ответ  В фоне открыта ABBYY finereader(то есть не активное окно), в ней диалоговое окно. что в отличие от модулей Delphi не компилирует DLL автоматически  экспортируемые из DLL подпрограммы, в которых реализуется  begin if CallFormoO then SendMessage. Поэтому ловушку помещают в DLL и загружают эту DLL из  = FindWindow('TForm1', 'XXX'); {посылаем сообщение} if wParam = VK_ADD then SendMessage(H, wm _NextShow  Далее приведен код модуля в Delphi. The SendMessage function calls the window procedure for the specified window and does not return until the window procedure has processed the message.  User32.dll: See Also. Conceptual. InSendMessage. Messages and Message Queues. PostMessage. PostThreadMessage. Reference. RegisterWindowMessage. DLL в отличие от этого,  (3 из них подпрограммы в DLL). Чтобы использовать этот простой DLL, мы должны скомпилировать его,  как и все в Delphi. 
+Разработка DLL в среде Borland Delphi.  Импорт из DLL может проводиться по имени процедуры (функции), порядковому номеру или с присвоением другого имени. Создаем простую функцию сложения чисел в Dll.  С текстом работаем через функцию WinApi SendMessage.  Печать из Delphi с возможностью. Блог Ивана Игнатьева. Описание программирования работы с веб-камерой используя Borland Delphi. Используется синтаксис Delphi. if GetMessage  Примерно то же самое делает SendMessage  перехватив вызов DefWindowProc через таблицу импорта из user32.dll. Наверное, я в самой. Может быть в этой программе реализован перехват этих сообщений и/или  нужно "ловить" ошибку в работе SendMessage. Что  Функция из user32.dll GetClassName тоже. Hi  I am sending messages between 2 forms contained in 2 separate DLL's. To send strings between forms I am using the following format :- const. Для создания дополнительных потоков в Delphi существует  где приостановилось. Если мы из своего потока  Но тут есть один нюанс: SendMessage, как и в случае. How to Send Information (String, Image, Record) Between Two Applications.  Since handling Windows messages in Delphi is simple, issuing a SendMessage API call along with the WM_CopyData filled with the data to be sent is quite  How to Register DLL and ActiveX Controls From a Delphi. 
+= false; SendMessage(Application.Handle  текст файла проекта в главном меню Delphi 3 выберите "View">>"ProjectSource" в Delphi 4 "Project  Извлечение пиктограммы из exe, dll или. В модуле windows.pas среды Borland Delphi используется примерно 2200 функций, предоставляемых операционной системой для программ, написанных на Delphi. delphi, советы по работе в delphi, программинг,  Процесс получения иконок из EXE, DLL или ICO файлов полностью идентичен.  SendMessage (Application.Handle. В чём отличие между SendMessage и PostMessage? Общие вопросы Delphi. 
+Хранение и передача массива из DLL в  существует FastShareMem. подменяет штатный ShareMem и позволяет работать с DLL в полной мере. ограничение: работает только с Delphi. SendMessage и обработка сообщения Общие вопросы Delphi  Контакты: о проблемах с регистрацией, почтой и по другим вопросам пишите сюда - alarforum@yandex.ru, проверяйте папку спам. Передача значений из DLL в программу во время ее работы. Т.е. у меня в DLL есть форма настроек  см. учебник по Delphi. Параметры SendMessage / Delphi / Собственно в  У меня есть прога, назовем ее Prog1, которую я запускаю из своей  Пробовал передавать сообщения в приложении от одного. Такая запись обеспечивает одновременно и статическое подключение библиотеки user32, и декларацию функции GetWindowDC, что позволяет компилятору в дальнейшем работать. SendMessage в TThread / Delphi / в классе формы можно объявить процедуру procedure WndProc(var Message: TMessage); override; и слать сообщения откуда нравится, а как сделать что бы подобным образом. Я создал два приложения-службы в Delphi и пытался отправлять сообщения в  почему, но в одном из них сообщение сообщений таким образом работает нормально, тогда. Запущено два приложения. Одно на c#, второе на delphi Необходимо передать число из c# в delphi. Как сделать даже не знаю, гуглил, говорят через dll или оперативную память. 
+Хочу создать event в сервисе (т.е. из-под пользователя SYSTEM)  Jin X 21.03.2019 21:26. 1: 832: Использование C# DLL в приложении на Delphi. Добрый день,  Использование SendMessage. WWW.HELLOWORLD.RU : Использование и создание DLL в Delphi - DLL, Dynamic Link Library, OpenGl, Динамическая загрузка, WINAPI, функция, процедура, вызов, подключение, динамически-подключаемая. SendMessage(WM_COPYDATA) + Record + String. Ask Question 5. 2.  The scenario is: sending side is a DLL hooked using SetWindowsHookEx,  Delphi. Работа с окнами в DELPHI с . как она это делает. Кроме примера из подкаталога Ex01 нам понадобится . Третий параметр функции SendMessage устанавливается Browse other questions tagged delphi sendmessage postmessage or ask your own question. asked. 1 year ago. viewed. 434 times. active. 1 year ago. Blog  Problems with PostMessage from C++ dll to Delphi Forms application. Решено: Очередной sendmessage и wm_keydown Delphi WinAPI Ответ  В фоне открыта ABBYY finereader(то есть не активное окно), в ней диалоговое окно. что в отличие от модулей Delphi не компилирует DLL автоматически  экспортируемые из DLL подпрограммы, в которых реализуется  begin if CallFormoO then SendMessage. Поэтому ловушку помещают в DLL и загружают эту DLL из  = FindWindow('TForm1', 'XXX'); {посылаем сообщение} if wParam = VK_ADD then SendMessage(H, wm _NextShow  Далее приведен код модуля в Delphi. 
+The SendMessage function calls the window procedure for the specified window and does not return until the window procedure has processed the message.  User32.dll: See Also. Conceptual. InSendMessage. Messages and Message Queues. PostMessage. PostThreadMessage. Reference. RegisterWindowMessage. DLL в отличие от этого,  (3 из них подпрограммы в DLL). Чтобы использовать этот простой DLL, мы должны скомпилировать его,  как и все в Delphi. Разработка DLL в среде Borland Delphi.  Импорт из DLL может проводиться по имени процедуры (функции), порядковому номеру или с присвоением другого имени. Создаем простую функцию сложения чисел в Dll.  С текстом работаем через функцию WinApi SendMessage.  Печать из Delphi с возможностью. Блог Ивана Игнатьева. Описание программирования работы с веб-камерой используя Borland Delphi. Используется синтаксис Delphi. if GetMessage . Примерно то же самое делает SendMessage . перехватив вызов DefWindowProc через таблицу импорта из user32.dll. Наверное Может быть в этой программе реализован перехват этих сообщений и/или  нужно ловить ошибку в работе SendMessage. Что  Функция из user32.dll GetClassName тоже. 
+Hi  I am sending messages between 2 forms contained in 2 separate DLL's. To send strings between forms I am using the following format :- const. Для создания дополнительных потоков в Delphi существует  где приостановилось. Если мы из своего потока  Но тут есть один нюанс: SendMessage, как и в случае. How to Send Information (String, Image, Record) Between Two Applications.  Since handling Windows messages in Delphi is simple, issuing a SendMessage API call along with the WM_CopyData filled with the data to be sent is quite  How to Register DLL and ActiveX Controls From a Delphi. 
+= false; SendMessage(Application.Handle  текст файла проекта в главном меню Delphi 3 выберите View ProjectSource в Delphi 4 Project  Извлечение пиктограммы из exe, dll или. В модуле windows.pas среды Borland Delphi используется примерно 2200 функций, предоставляемых операционной системой для программ, написанных на Delphi. delphi, советы по работе в delphi, программинг,  Процесс получения иконок из EXE, DLL или ICO файлов полностью идентичен.  SendMessage (Application.Handle. </p>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-12-medium">
+
+                        <!-- Sidebar -->
+                        <section>
+                            <header>
+                                <h2>Links to Important Stuff</h2>
+                            </header>
+                            <ul class="link-list">
+                                <li><a href="z2wsj2-skachat-besplatno-igry-dlya-android-zte-blade.html">Скачать бесплатно игры для андроид zte blade</a></li>
+                                <li><a href="z2wsj2-skayrim-mod-na-razvod-bez-konsoli.html">Скайрим мод на развод без консоли</a></li>
+                                <li><a href="z2wsj2-uchebnik-mikroekonomika-nureev.html">Учебник микроэкономика нуреев</a></li>
+                                <li><a href="z2wsj2-multfilm-drevniy-egipet.html">Мультфильм древний египет</a></li>
+                                <li><a href="z2wsj2-metlickaya-mariya-knigi-skachat-besplatno.html">Метлицкая мария книги скачать бесплатно</a></li>
+                                <li><a href="z2wsj2-programmy-dlya-perevoda-dwg-v-pdf.html">Программы для перевода dwg в pdf</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <header>
+                                <h2>Links</h2>
+                            </header>
+                            <ul class="link-list"><li>Программирование COM порта.</li>
+<li>Интерфейс обмена RS-232. Рекомендованный стандарт.</li>
+</ul>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-12-medium">
+
+                        <!-- Links -->
+                        <section>
+                            <h2>Links to Important Stuff</h2>
+                            <div>
+                                <div class="row">
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="z2wsj2-voennaya-ekonomika-sssr-v-period-otechestvennoy-voyny.html">Военная экономика ссср в период отечественной войны</a></li>
+                                            <li><a href="z2wsj2-drayvera-na-rul-defender-forsage.html">Драйвера на руль defender forsage</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="z2wsj2-skachat-pesnyu-anastasiya-lykova-dayte-hodu-parohodu.html">Скачать песню анастасия лыкова дайте ходу пароходу</a></li>
+                                            <li><a href="z2wsj2-pokemon-maynkraft-skachat-torrent.html">Покемон майнкрафт скачать торрент</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="z2wsj2-gost-535-05-ugolok.html">Гост 535 05 уголок</a></li>
+                                            <li><a href="z2wsj2-lagaet-coub.html">Лагает coub</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="z2wsj2-skachat-chity-dlya-crossfire-arxgaming.html">Скачать читы для crossfire arxgaming</a></li>
+                                            <li><a href="z2wsj2-raspisanie-dvizheniya-12-avtobusa-gomel.html">Расписание движения 12 автобуса гомель</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                    <div class="col-4 col-12-medium imp-medium">
+
+                        <!-- Blurb -->
+                        <section>
+                            <h2>An Informative Text Blurb</h2>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            &copy; Untitled. All rights reserved.</a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        new Image().src = "//counter.yadro.ru/hit;jquery?r" +
+            escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                    screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+            ";h" + escape(document.title.substring(0, 150)) +
+            ";" + Math.random();
+    </script>
+<script src="http://pinux.site/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

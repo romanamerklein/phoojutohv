@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://ooyiefinod.maxvandervelde.com/sitemap.xml
